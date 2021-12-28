@@ -5,5 +5,6 @@
   justify-content: space-between;
   align-items: baseline;
   position: fixed;
+  margin-top: 20px;
   top: 0;
 }

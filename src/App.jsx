@@ -7,8 +7,9 @@ import Home from './pages/Home';
 import Languages from './pages/Languages';
 import Linkedin from './pages/Linkedin';
 import Skills from './pages/Skills';
-import UsefullLinks from './pages/UsefullLinks';
+import UsefulLinks from './pages/UsefulLinks';
 import Navbar from './components/Navbar/Navbar';
+import Projetos from './pages/Projetos';
 
 function App() {
   return (
@@ -18,9 +19,10 @@ function App() {
         <Switch>
           <Route exact path="/" component={ Home } />
           <Route exact path="/skills" component={ Skills } />
+          <Route exact path="/projetos" component={ Projetos } />
           <Route exact path="/languages" component={ Languages } />
           <Route exact path="/linkedin" component={ Linkedin } />
-          <Route exact path="/usefullLinks" component={ UsefullLinks } />
+          <Route exact path="/usefulLinks" component={ UsefulLinks } />
         </Switch>
       </header>
     </div>
